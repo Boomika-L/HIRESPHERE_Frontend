@@ -12,7 +12,7 @@ const AdminCompanyManagement = () => {
   useEffect(() => {
     const fetchCompanies = async () => {
       try {
-        const res = await fetch("http://localhost:9000/api/admin/companies");
+        const res = await fetch("https://hiresphere-backendrepo.onrender.com/api/admin/companies");
         const data = await res.json();
         setCompanies(data);
       } catch (err) {
@@ -27,7 +27,7 @@ const AdminCompanyManagement = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:9000/api/admin/companies", {
+      const res = await fetch("https://hiresphere-backendrepo.onrender.com/api/admin/companies", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
