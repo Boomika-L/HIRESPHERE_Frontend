@@ -13,7 +13,7 @@ const AdminStudentManagement = () => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const res = await fetch("http://localhost:9000/api/admin/students");
+        const res = await fetch("https://hiresphere-backendrepo.onrender.com/api/admin/students");
         const data = await res.json();
         setStudents(data);
       } catch (err) {
@@ -28,7 +28,7 @@ const AdminStudentManagement = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:9000/api/admin/students", {
+      const res = await fetch("https://hiresphere-backendrepo.onrender.com/api/admin/students", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
