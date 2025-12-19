@@ -1,0 +1,18 @@
+
+    {
+  "name": "Boomika",
+  "rollNo": "CS101",
+  "avatar":  "/images/student1.jpg",
+  "stats": {
+    "applications": 12,
+    "interviews": 3,
+    "offers": 1,
+    "pending": 2
+  },
+  "recentActivities": [
+    "Applied for Frontend Developer at XYZ Corp",
+    "Interview scheduled with ABC Ltd",
+    "Offer received from DEF Inc"
+  ]
+}
+

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "company": "TCS",
+    "role": "Frontend Developer",
+    "location": "Chennai",
+    "package": "4 LPA",
+    "status": "Open"
+  },
+  {
+    "id": 2,
+    "company": "Infosys",
+    "role": "Java Developer",
+    "location": "Bangalore",
+    "package": "5 LPA",
+    "status": "Closed"
+  }
+]

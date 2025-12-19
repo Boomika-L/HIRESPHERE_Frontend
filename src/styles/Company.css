@@ -1,0 +1,66 @@
+/* Page layout */
+.company-page {
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+.company-header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.company-header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.company-header p {
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+/* Company list container */
+.company-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+/* Company card */
+.company-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.company-card h3 {
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.company-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* No data text */
+.no-data {
+  text-align: center;
+  width: 100%;
+  color: #777;
+  font-size: 18px;
+}
