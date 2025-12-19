@@ -9,7 +9,7 @@ const Register = () => {
 
   const onSubmitHandler = async (data) => {
   try {
-    const res = await fetch("http://localhost:9000/api/student/register", {
+    const res = await fetch("https://hiresphere-backendrepo.onrender.com/api/student/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
