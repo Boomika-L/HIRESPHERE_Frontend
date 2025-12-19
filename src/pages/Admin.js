@@ -16,7 +16,7 @@ const Admin = () => {
         }
 
         const response = await fetch(
-          `http://localhost:9000/api/admin/dashboard?email=${email}`
+          `https://hiresphere-backendrepo.onrender.com/api/admin/dashboard?email=${email}`
         );
 
         const result = await response.json();
