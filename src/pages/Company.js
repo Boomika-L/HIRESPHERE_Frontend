@@ -5,7 +5,7 @@ const CompanyPage = () => {
   const [companies, setCompanies] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9000/api/company")
+    fetch("https://hiresphere-backendrepo.onrender.com/api/company")
       .then(res => res.json())
       .then(data => setCompanies(data))
       .catch(err => console.error(err));
