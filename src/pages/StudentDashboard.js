@@ -16,7 +16,7 @@ const StudentDashboard = () => {
     const fetchStudent = async () => {
       try {
         const res = await fetch(
-          `http://localhost:9000/api/student/dashboard?email=${email}`
+          `https://hiresphere-backendrepo.onrender.com/api/student/dashboard?email=${email}`
         );
         const data = await res.json();
 
